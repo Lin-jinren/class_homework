@@ -18,4 +18,4 @@ thumbs/
 _thumbs/
 */expressionengine/cache/*
 /.vscode
-/.gitignore
+.gitignore
