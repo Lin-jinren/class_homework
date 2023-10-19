@@ -60,8 +60,8 @@ int StringCls::PrintString()
 
 int StringCls::FindString(StringCls pht)
 {
-  int ans = -1;//設定找不到的回應值
-  for (int i = 0; i <= this->len - pht.len; i++)//從頭比到尾 但不超過原始自串的底線
+  int ans = -1;                                  // 設定找不到的回應值
+  for (int i = 0; i <= this->len - pht.len; i++) // 從頭比到尾 但不超過原始自串的底線
   {
     for (int j = 0; j < pht.len; j++)
     {
