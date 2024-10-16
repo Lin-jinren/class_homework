@@ -1,4 +1,5 @@
 #include "Header.h"
+#include "source.hpp"
 #define _CRT_SECURE_NO_WARNINGS
 
 StringCls::StringCls() : data(nullptr), len(0)
